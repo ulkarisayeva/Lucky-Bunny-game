@@ -1,0 +1,146 @@
+#roll button {
+    top: 80px;
+    left: 10px;
+    padding: 15px 50px;
+    color: #fff;
+    background-color: #f4d35e;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 3px #50514F;
+    outline: none;
+    transition: .3s;
+}
+
+#roll button:hover,
+#roll button:active {
+    outline: none;
+    background: #50514F;
+    cursor: pointer;
+    /* transform: translateY(15px); */
+}
+
+.roll-button {
+    margin-top: 20px;
+}
+
+.game {
+    width: auto;
+    height: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    display: inline-block;
+}
+
+.dot {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin: -10px 5px 5px -10px;
+    border-radius: 70px;
+}
+
+.dot-green {
+    background-color: #76c15d;
+    box-shadow: inset 2px 2px #4b7b3b;
+}
+
+.dot-yellow {
+    background-color: #fcc433;
+    box-shadow: inset 2px 2px #c79a28;
+}
+
+.dot-orange {
+    background-color: #f59429;
+    box-shadow: inset 2px 2px #c27320;
+}
+
+.dot-red {
+    background-color: #e65250;
+    box-shadow: inset 2px 2px #aa3c3a;
+}
+
+.dot-purple {
+    background-color: #a756a2;
+    box-shadow: inset 2px 2px #6f396c;
+}
+
+.dot-blue {
+    background-color: #26ade2;
+    box-shadow: inset 2px 2px #1b7ca3;
+}
+
+.dice-one {
+    left: 150px;
+}
+
+.side {
+    position: absolute;
+    background-color: #ffF;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 2em;
+}
+
+.side:nth-child(1) {
+    transform: translateZ(3.1em);
+}
+
+.side:nth-child(6) {
+    transform: rotateY(90deg) translateZ(3.1em);
+}
+
+.side:nth-child(3) {
+    transform: rotateY(-90deg) translateZ(3.1em);
+}
+
+.side:nth-child(4) {
+    transform: rotateX(90deg) translateZ(3.1em);
+}
+
+.side:nth-child(5) {
+    transform: rotateX(-90deg) translateZ(3.1em);
+}
+
+.side:nth-child(2) {
+    transform: rotateY(-180deg) translateZ(3.1em);
+}
+
+.show-1 {
+    transform: rotateX(720deg) rotateZ(-720deg);
+}
+
+.show-6 {
+    transform: rotateX(-900deg) rotateZ(1080deg);
+}
+
+.show-3 {
+    transform: rotateY(-450deg) rotateZ(-1440deg);
+}
+
+.show-4 {
+    transform: rotateY(810deg) rotateZ(720deg);
+}
+
+.show-5 {
+    transform: rotateX(-810deg) rotateZ(-1080deg);
+}
+
+.show-2 {
+    transform: rotateX(450deg) rotateZ(-720deg);
+}
+
+.one-1 {
+    top: 26%;
+    left: 26%;
+}

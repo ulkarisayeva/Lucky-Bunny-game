@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./dice.css" />
+    <link rel="stylesheet" href="./pop-up.css" />
+  </head>
+  <body>
+    <div id="content">
+      <div id="carrots">
+        <table cellspacing="0">
+          <tbody>
+            <tr>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-red.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-orange.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-lila.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-green.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-blue.png" />
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-red.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-orange.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-lila.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-green.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-blue.png" />
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-red.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-orange.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-lila.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-green.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-blue.png" />
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-red.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-orange.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-lila.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-green.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-blue.png" />
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-red.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-orange.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-lila.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-green.png" />
+                </span>
+              </td>
+              <td onclick="showCarrot(this)">
+                <span class="carrot">
+                  <img src="./images/carrot-blue.png" />
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="right-panel">
+        <h2 class="caption">Lucky Bunny</h2>
+        <div class="game">
+          <div id="dice" class="dice dice-one">
+            <div class="side one">
+              <div class="dot one-1 dot-green"></div>
+            </div>
+            <div class="side one">
+              <div class="dot one-1 dot-yellow"></div>
+            </div>
+            <div class="side one">
+              <div class="dot one-1 dot-orange"></div>
+            </div>
+            <div class="side one">
+              <div class="dot one-1 dot-red"></div>
+            </div>
+            <div class="side one">
+              <div class="dot one-1 dot-purple"></div>
+            </div>
+            <div class="side one">
+              <div class="dot one-1 dot-blue"></div>
+            </div>
+          </div>
+          <div id="roll" class="roll-button"><button>Roll dice!</button></div>
+          <div id="roll" class="roll-button"><button><a class="restart-btn" href="./index.html">Restart</a></button></div>
+          <div id="under-dice">
+            <div id="rabbit">
+              <img class="player" src="./images/bunny-juggle.gif" />
+            </div>
+            <div id="stats">
+              <ul>
+                <li>Score: <b id="stats-grabbed-carrots">0</b></li>
+                <li>Lifes: <b id="stats-lifes">0</b></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <audio id="oops-audio">
+      <source src="./sounds/oopps.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="popup-roll-dice" class="popup">
+      <img src="./images/oops.png" />
+      <h2>Warning!</h2>
+      <p><em>Roll the dice first</em></p>
+      <button onclick="closePopUp(this)">OK</button>
+    </div>
+
+    <div id="popup-grab-carrot" class="popup">
+      <img src="./images/oops.png" />
+      <h2>Warning!</h2>
+      <p><em>You must find the same color carrot before rolling the dice again.</em></p>
+      <button onclick="closePopUp(this)">OK</button>
+    </div>
+
+    <audio id="game-over-audio">
+      <source src="./sounds/girl-says-game-over.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="popup-game-over" class="popup">
+      <img src="./images/gmov.png" />
+      <h3><em>Oops... You used all your lifes.</em></h3>
+      <button onclick="goHome(this)">Restart</button>
+    </div>
+
+    
+    <audio id="congrats-audio">
+      <source src="./sounds/congrats.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <div id="popup-congrats" class="popup">
+      <img src="./images/congrat-bg.png" />
+      <h2>Congratulations!</h2>
+      <p>You grabbed all the carrots</p>
+      <button onclick="goHome(this)">Restart</button>
+    </div>
+
+
+   
+
+    <script src="./game.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+
+body{
+    display: block;
+    margin: 0%;
+    padding: 0%;
+}
+
+#start{
+    background-image: url("./images/background.png");
+    background-position: center;
+    height: 90vh;
+    width: 100vw;
+    margin-top: 0%;
+    background-repeat: no-repeat;
+    background-size:100vw;    
+}
+.name{
+    color: #fc8464;
+    font-size: 80px;
+    justify-content: flex-start;
+    font-family: fantasy;
+    font-weight: bold;
+    padding: 4%;
+    float: right;
+}
+
+.how{
+    display: flex;
+    color:#140d08;
+    font-size: 25px;
+    justify-content: center;
+    bottom: 8px; 
+    margin-top: 15px;
+}
+
+.link{
+    cursor: pointer;
+    display: block;
+    font-size: 42px;    
+    text-decoration: none;
+    position: absolute;
+    color: aliceblue;
+    bottom: 12%;
+    left: 48%;
+}
+
+.link:hover {
+color: #fc8464;
+border-color: black;
+}
